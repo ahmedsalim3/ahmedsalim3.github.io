@@ -2,12 +2,12 @@
 date: 2023-01-22 19:20:00 +0800
 title: "Adventure Works Database Management"
 categories:
-  + Database Management
-  + RDBMS
+  - Database Management
+  - RDBMS
 pin: false
 render_with_liquid: false
 tags:
-  + MySQL
+  - MySQL
 includes_code: yes
 includes_math: yes
 ---
