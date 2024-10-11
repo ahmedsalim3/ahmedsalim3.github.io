@@ -317,9 +317,16 @@ The `tqdm` library enhances the user experience by displaying a progress bar dur
 
 {{< figure src="/posts/adventureworks-database/csv2mysql.png" alt="Output from MySQLDatabaseManager class" caption="Output from MySQLDatabaseManager class" width="100%" class="right" >}}
 
+{{< notice tip "Note" >}} We can also dump and export the database into a directory using the command line. {{< /notice >}}
+
+```sh
+cd rdbms/
+mysqldump --skip-extended-insert --compact -u root -p adventureworks > DUMP_adventureworks.sql
+```
+
 ## MySQL Workbench
 
-After creating the database, you can access it using tools like [MySQL Workbench][mysql-workbench], [phpMyAdmin][php-my-admin], or others. For this project, we utilized MySQL Workbench to analyze our SQL queries effectively.
+After creating the database, we can access it using tools like [MySQL Workbench][mysql-workbench], [phpMyAdmin][php-my-admin], or others. For this project, we utilized MySQL Workbench to analyze our SQL queries effectively.
 
 ### Entity Relationship Diagram (ERD)
 
