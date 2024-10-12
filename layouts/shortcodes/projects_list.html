@@ -1,0 +1,35 @@
+<article class="projects_list" data-page="projects_list">
+    <div class="filter-container">
+        <div class="filter-select-box">
+            <select class="select-list" data-select-item>
+                <option value="all" selected>All</option>
+                <option value="data-science">Data Science</option>
+                <option value="business-intelligence">Business Intelligence</option>
+                <option value="machine-learning">Machine Learning</option>
+                <option value="web-development">Web Development</option>
+            </select>
+        </div>
+
+        <ul class="filter-list">
+            <li class="filter-item">
+                <button class="active" data-filter-btn="all">All</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn="data-science">Data Science</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn="business-intelligence">Business Intelligence</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn="machine-learning">Machine Learning</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn="web-development">Web Development</button>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="project-list">
+        {{ .Inner }}
+    </ul>
+</article>
