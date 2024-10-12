@@ -2,7 +2,8 @@
 {{ $scripts := resources.Get "js/projects.js" | minify | fingerprint }}
 
 <li class="project-item" data-filter-item data-category="{{ .Get "category" }}">
-    <a href="{{ .Get "link" }}" target="_blank">
+    <!-- <a href="{{ .Get "link" }}" target="_blank"> --> <!-- in case of using a main link through the image click-->
+    <a href="#" class="main-link" onclick="toggleContent(event)">
         <figure class="project-img">
             <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}" loading="lazy">
         </figure>
@@ -13,12 +14,12 @@
     <div class="button-container">
         {{ if .Get "github" }}
         <a href="{{ .Get "github" }}" class="btn buttons" target="_blank">
-            <img src="/images/github.svg" alt="GitHub" style="width: 20px; height: 20px; margin-right: 10px;">Project
+            <img src="/logos/github.svg" alt="GitHub" style="width: 20px; height: 20px; margin-right: 10px;">Project
         </a>
         {{ end }}
         {{ if .Get "dataset" }}
         <a href="{{ .Get "dataset" }}" class="btn buttons" target="_blank">
-            <img src="/images/kaggle.svg" alt="Dataset" style="width: 20px; height: 20px; margin-right: 10px;">Dataset
+            <img src="/logos/kaggle.svg" alt="Dataset" style="width: 20px; height: 20px; margin-right: 10px;">Dataset
         </a>
         {{ end }}
         {{ if .Get "blog" }}
