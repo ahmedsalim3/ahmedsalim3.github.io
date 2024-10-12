@@ -1,0 +1,41 @@
+{{ $styles := resources.Get "css/projects.css" | minify | fingerprint }}
+{{ $scripts := resources.Get "js/projects.js" | minify | fingerprint }}
+
+<li class="project-item" data-filter-item data-category="{{ .Get "category" }}">
+    <a href="{{ .Get "link" }}" target="_blank">
+        <figure class="project-img">
+            <img src="{{ .Get "image" }}" alt="{{ .Get "title" }}" loading="lazy">
+        </figure>
+        <div class="project-title-container">
+            <h3 class="project-title">{{ .Get "title" }}</h3>
+        </div>
+    </a>
+    <div class="button-container">
+        {{ if .Get "github" }}
+        <a href="{{ .Get "github" }}" class="btn buttons" target="_blank">
+            <img src="/images/github.svg" alt="GitHub" style="width: 20px; height: 20px; margin-right: 10px;">Project
+        </a>
+        {{ end }}
+        {{ if .Get "dataset" }}
+        <a href="{{ .Get "dataset" }}" class="btn buttons" target="_blank">
+            <img src="/images/kaggle.svg" alt="Dataset" style="width: 20px; height: 20px; margin-right: 10px;">Dataset
+        </a>
+        {{ end }}
+        {{ if .Get "blog" }}
+        <a href="{{ .Get "blog" }}" class="btn buttons" target="_blank">
+            <img src="/favicon_io/favicon.ico" alt="Blog" style="width: 20px; height: 20px; margin-right: 10px;">Blog
+        </a>
+        {{ end }}
+        {{ if .Get "customLink" }}
+        <a href="{{ .Get "customLink" }}" class="btn buttons" target="_blank">
+            <img src="{{ .Get "customImg" }}" alt="{{ .Get "customText" }}" style="width: 20px; height: 20px; margin-right: 10px;">{{ .Get "customText" }}
+        </a>
+        {{ end }}
+    </div>
+</li>
+
+<!-- Load styles and scripts -->
+{{ if not (in $.Params "stylesLoaded") }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}">
+<script src="{{ $scripts.Permalink }}"></script>
+{{ end }}
