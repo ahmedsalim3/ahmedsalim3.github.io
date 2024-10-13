@@ -2,7 +2,7 @@
 date: 2024-04-16 00:00:00 +0800
 title: "Financial Expense Tracker"
 categories:
-  - business-intelligence
+  - Business Intelligence
 pin: false
 render_with_liquid: false
 tags:

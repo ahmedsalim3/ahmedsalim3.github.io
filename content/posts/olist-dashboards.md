@@ -2,7 +2,7 @@
 date: 2023-01-26 00:00:00 +0800
 title: "OLIST E-Commerce Reporting Dashboard"
 categories:
-  - business-intelligence
+  - Business Intelligence
 pin: false
 render_with_liquid: false
 tags:

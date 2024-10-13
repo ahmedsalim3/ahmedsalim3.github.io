@@ -2,7 +2,7 @@
 date: 2022-12-16 00:00:00 +0800
 title: "Power BI Tutorial: Tips for Clear Data Visualizations"
 categories:
-  - business-intelligence
+  - Business Intelligence
 pin: false
 render_with_liquid: false
 tags:

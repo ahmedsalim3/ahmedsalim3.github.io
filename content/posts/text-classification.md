@@ -2,7 +2,7 @@
 date: 2022-12-09 12:00:00 +0800
 title: Text Classification using NLP
 categories:
-  - machine-learning
+  - Machine Learning
 pin: false
 render_with_liquid: false
 tags:
