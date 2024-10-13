@@ -4,6 +4,8 @@ title: "Text To SQL App: Google Gemini 1.5 Flash"
 categories:
   - Database Management
   - RDBMS
+  - Machine Learning
+  - Data Science
 pin: false
 render_with_liquid: false
 tags:
