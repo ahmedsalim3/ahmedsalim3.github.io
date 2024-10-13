@@ -9,7 +9,6 @@ date: 2024-10-12
     {{< project 
         title="BraTS image segmentation" 
         category="machine-learning" 
-        link="#" 
         image="/projects/brats-image-segmentation.png" 
         github="https://github.com/ahmedsalim3/BRATS-Image-Segmentation.git" 
         dataset="https://www.kaggle.com/datasets/ahvshim/mri-brats2019-training-and-validation-splits/data" 
@@ -19,7 +18,6 @@ date: 2024-10-12
     {{< project 
         title="Multi-Task Human Action Recognition" 
         category="machine-learning" 
-        link="https://github.com/ahmedsalim3/Multi-Task-Human-Action-Recognition.git" 
         image="/projects/multi-task-human-action-recognition.png" 
         github="https://github.com/ahmedsalim3/Multi-Task-Human-Action-Recognition.git" 
         stylesLoaded="true" 
@@ -28,7 +26,6 @@ date: 2024-10-12
     {{< project 
         title="Pebelonix Social Networking" 
         category="web-development" 
-        link="https://pebelone.pythonanywhere.com/" 
         image="/projects/pebelonix.jpg" 
         github="https://github.com/ahmedsalim3/Pebelonix/tree/dev"
         customLink="https://pebelone.pythonanywhere.com/" 
@@ -40,7 +37,6 @@ date: 2024-10-12
     {{< project
         title="Text-to-SQL App"
         category="machine-learning data-science web-development"
-        link="https://ai-sql.streamlit.app/" 
         image="/projects/text-to-sql.png" 
         github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/app"
         blog="../posts/text-to-sql/"
@@ -53,7 +49,6 @@ date: 2024-10-12
     {{< project
         title="Financial Expense Tracker"
         category="business-intelligence web-development"
-        link="https://ai-sql.streamlit.app/" 
         image="/projects/financial-expense-tracker.png" 
         github="https://github.com/ahmedsalim3/Expense-Tracker.git"
         blog="../posts/expense-tracker"
@@ -65,16 +60,34 @@ date: 2024-10-12
 
     <!-- Add more projects here -->
     {{< project
-        title=""
-        category=""
-        link="" 
-        image="/projects/ " 
-        github=""
-        blog=""
-        customLink="" 
-        customImg="" 
-        customText=""
+        title="Color Based Image Segmentation Tool"
+        category="web-development data-science"
+        image="/posts/hsv-segmentation/web.png" 
+        github="https://github.com/ahmedsalim3/Color-Based-Image-Segmentation.git"
+        blog="../posts/hsv-segmentation"
+        customLink="https://hsv-segmentation.onrender.com" 
+        customImg="/logos/render.png" 
+        customText="Demo App"
         stylesLoaded="true" 
     >}}
+
+    {{< project
+        title="Leaf Image Classification"
+        category="machine-learning data-science web-development"
+        image="/projects/leaf-classification.png" 
+        github="https://github.com/ahmedsalim3/Leaf-ImageOps-Augmentation-Segmentation-Classification"
+        blog="../posts/leaf-imageops"
+        stylesLoaded="true" 
+    >}}
+
+    {{< project
+        title="YouTube Sentiment with GPT2"
+        category="machine-learning data-science"
+        image="/projects/gpt2.png" 
+        github="https://github.com/ahmedsalim3/gpt2-youtube-comments-sentiment"
+        blog="../posts/youtube-comments-sentiment"
+        stylesLoaded="true" 
+    >}}
+
     
 {{< /projects_list >}}
