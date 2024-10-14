@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://ahmedsalim3.github.io/ahmedsalim3.github.io/'
 title = "Ahmed Salim"
 theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
 enableInlineShortcodes = true
