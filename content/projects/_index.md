@@ -118,7 +118,7 @@ date: 2024-10-12
         category="data-science"
         image="/posts/adventureworks-database/AdventureWorks-Schema.png"
         github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms"
-        blog="../posts/adventureworks-database.md"
+        blog="../posts/adventureworks-database"
         stylesLoaded="true" 
     >}}
 
