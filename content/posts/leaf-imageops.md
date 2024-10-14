@@ -14,8 +14,8 @@ tags:
    - Image Classification
    - Deep Learning
    - Plant Diseases
-includes_code: yes
-includes_math: yes
+includes_code: no
+includes_math: no
 ---
 
 {{< notice note "Note" >}}
