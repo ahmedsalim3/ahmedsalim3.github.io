@@ -19,7 +19,7 @@ includes_math: no
 ---
 
 {{< notice note "Note" >}}
-The Python source code for this paper will be available in this [GitHub repository](https://github.com/ahmedsalim3/Color-Based-Image-Segmentation.git) after the paper is published.
+The Python source code for this paper will be available in this [GitHub repository](https://github.com/ahmedsalim3/Leaf-ImageOps-Augmentation-Segmentation-Classification) after the paper is published.
 
 The datasets and materials utilized in this study are available for researchers upon request.
 {{< /notice >}}
