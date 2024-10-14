@@ -1,3 +1,98 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ahmedsalim3.github.io/'
+title = "Ahmed Salim"
+theme = ["hugo-embed-pdf-shortcode", "hugo-coder"]
+enableInlineShortcodes = true
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+defaultContentLanguage = "en"
+
+paginate = 20
+canonifyURLs = true
+
+enableEmoji = true
+enableGitInfo = true
+
+[services]
+[services.disqus]
+shortname = "ahmedsalim"
+
+[services.googleAnalytics]
+ID = 'G-6Q7ZQCC35Y' 
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+  
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[markup.highlight]
+style = "github-dark"
+tabWidth = 4
+
+[params]
+  author = "Ahmed Salim"
+  # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+  avatarURL = "images/avatar.jpg"
+  description = "Ahmed Salim's personal website"
+  info = ["Data Scientist", "Machine Learning Engineer"]
+  keywords = "blog,developer,personal,software,python,c++, javascript"
+  dateFormat = "2006-01-02"
+  since = 2019
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  #customCSS = ["css/projects.css"]
+  #customJS = ["js/projects.js"]
+  faviconICO = "/favicon_io/favicon.ico"
+  favicon_32 = "/favicon_io/favicon-32x32.png"
+  favicon_16 = "/favicon_io/favicon-16x16.png"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/ahmedsalim3"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/ahmed-salim-b73aa9200"
+
+[[params.social]]
+name = "Upwork"
+icon = "fa-brands fa-upwork fa-2x"
+weight = 5
+url = "https://www.upwork.com/freelancers/~01666bb3554c0e8a10?mp_source=share"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-rss-square fa-2x"
+weight = 5
+url = "/posts/index.xml"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+
+[[languages.en.menu.main]]
+name = "Resume"
+weight = 4
+url = "Resume/"
