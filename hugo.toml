@@ -95,4 +95,4 @@ url = "projects/"
 [[languages.en.menu.main]]
 name = "Resume"
 weight = 4
-url = "Resume/"
+url = "resume/"
