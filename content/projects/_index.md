@@ -51,7 +51,7 @@ date: 2024-10-12
         category="business-intelligence web-development"
         image="/projects/financial-expense-tracker.png" 
         github="https://github.com/ahmedsalim3/Expense-Tracker.git"
-        blog="../posts/expense-tracker"
+        blog="../posts/financial-expense-tracker"
         customLink="https://ahmedsalim3.github.io/Expense-Tracker/" 
         customImg="/logos/github.svg" 
         customText="Web App"
@@ -86,6 +86,39 @@ date: 2024-10-12
         image="/projects/gpt2.png" 
         github="https://github.com/ahmedsalim3/gpt2-youtube-comments-sentiment"
         blog="../posts/youtube-comments-sentiment"
+        stylesLoaded="true" 
+    >}}
+
+    {{< project
+        title="OLIST Dashboard"
+        category="business-intelligence data-science"
+        image="/projects/olist.png" 
+        github="https://github.com/ahmedsalim3/public-data/tree/main/olist-dashboards"
+        blog="../posts/olist-dashboards"
+        customLink="https://app.powerbi.com/view?r=eyJrIjoiMTAxNzk2NzYtNjNiNi00NGNiLWJkNjYtMzhmOWViNTUyNzA3IiwidCI6IjBlMGRiMmFkLWM0MTYtNDdjNy04OGVjLWNlYWM0ZWU3Njc2NyIsImMiOjEwfQ%3D%3D&pageName=ReportSectioncc096a47c2520501357d" 
+        customImg="/logos/powerbi.svg" 
+        customText="Dashboard"
+        stylesLoaded="true" 
+    >}}
+
+    {{< project
+        title="PowerBI Tutorial"
+        category="business-intelligence"
+        image="/posts/powerbi-tutorial/img8.jpg"
+        github="https://github.com/ahmedsalim3/public-data/tree/main/powerbi-tutorial"
+        blog="../posts/powerbi-tutorial"
+        customLink="https://app.powerbi.com/view?r=eyJrIjoiZjYwZjIzODktZGY0Ni00Y2UyLTg0YTItODMzOTZhOTIxYTlmIiwidCI6IjBlMGRiMmFkLWM0MTYtNDdjNy04OGVjLWNlYWM0ZWU3Njc2NyIsImMiOjEwfQ%3D%3D&pageName=ReportSectionf41a13297f1ea9120f47" 
+        customImg="/logos/powerbi.svg" 
+        customText="Dashboard"
+        stylesLoaded="true" 
+    >}}
+
+    {{< project
+        title="Adventure Works Database"
+        category="data-science"
+        image="/posts/adventureworks-database/AdventureWorks-Schema.png"
+        github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms"
+        blog="../posts/adventureworks-database.md"
         stylesLoaded="true" 
     >}}
 
