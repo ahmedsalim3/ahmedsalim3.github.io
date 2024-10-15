@@ -16,7 +16,7 @@ This article showcases a project on managing big data using MySQL Workbench, foc
 
 {{< notice note "Note" >}}
 The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms).
-The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-Scripts.sql).
+The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-Scripts.sql).
 {{< /notice >}}
 
 ## Data Source
@@ -712,7 +712,7 @@ ORDER BY total_quantities2015 DESC;
 
 {{< notice note "Note" >}}
 The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms).
-The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-Scripts.sql).
+The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-Scripts.sql).
 {{< /notice >}}
 
 [data-source]: https://www.kaggle.com/datasets/ukveteran/adventure-works
