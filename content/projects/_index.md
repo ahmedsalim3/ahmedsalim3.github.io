@@ -7,6 +7,14 @@ date: 2024-10-12
     <!-- categories = data-science | "machine-learning" | "business-intelligence" | "web-development"-->
 
     {{< project 
+        title="Flask Site Tracker" 
+        category="web-development data-science" 
+        image="/projects/flask-site-tracker.png" 
+        github="https://github.com/ahmedsalim3/flask-site-tracker" 
+        stylesLoaded="true" 
+    >}}
+
+    {{< project 
         title="BraTS image segmentation" 
         category="machine-learning" 
         image="/projects/brats-image-segmentation.png" 
