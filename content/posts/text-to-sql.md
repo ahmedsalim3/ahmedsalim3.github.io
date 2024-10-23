@@ -253,7 +253,6 @@ In cases where no results are found and there are no errors during execution, a 
 - [Streamlit][streamlit]: For building the interactive web application.
 - [SQLite][sqlite]: As the database management system.
 - [Google Gemini Flash][gemini-flash]: For generating SQL queries from natural language input.
-- []
 - [Pandas][pandas-docs]: For data manipulation and display.
 
 ## Conclusion
