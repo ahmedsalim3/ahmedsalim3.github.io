@@ -15,7 +15,7 @@ includes_math: yes
 This article showcases a project on managing big data using MySQL Workbench, focusing on the Adventure Works dataset. The project involves constructing a relational database system and performing data analysis queries using SQL.
 
 {{< notice note "Note" >}}
-The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms).
+The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database).
 The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-Scripts.sql).
 {{< /notice >}}
 
@@ -711,17 +711,17 @@ ORDER BY total_quantities2015 DESC;
 {{< figure src="/posts/adventureworks-database/img27.png" alt="Output from Question 22" caption="Output from Question 22" width="80%" class="right" >}}
 
 {{< notice note "Note" >}}
-The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms).
+The Python source code used in creating the database in Python is available in this [Github-repo](https://github.com/ahmedsalim3/AdventureWorks-Database).
 The Adventure Works dump database is free to download from [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-DumpDatabase.sql), and the SQL query scripts used can be found [**here**](https://raw.githubusercontent.com/ahmedsalim3/public-data/refs/heads/main/adventureworks/rdbms/AdventureWorks-Scripts.sql).
 {{< /notice >}}
 
 [data-source]: https://www.kaggle.com/datasets/ukveteran/adventure-works
-[clean-data]: https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/data
-[schema.sql]: https://github.com/ahmedsalim3/AdventureWorks-Database/blob/main/rdbms/schema.sql
+[clean-data]: https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/data/raw
+[schema.sql]: https://github.com/ahmedsalim3/AdventureWorks-Database/blob/main/data/database/schema.sql
 [data-import-wizard]: https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-table.html
 [load-data-statement]: https://dev.mysql.com/doc/refman/5.1/en/load-data.html
 [mysql-workbench]: https://www.mysql.com/products/workbench/
 [php-my-admin]: https://www.phpmyadmin.net/
-[source-code]: https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms
-[dump-db-raw]: (https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-DumpDatabase.sql
-[SQL-queries]: https://raw.githubusercontent.com/Ahmeds-Data/Public-Data/main/AdventureWorks/AdventureWorks-Scripts.sql
+[source-code]: https://github.com/ahmedsalim3/AdventureWorks-Database
+[dump-db-raw]: https://raw.githubusercontent.com/ahmedsalim3/AdventureWorks-Database/refs/heads/main/data/database/dump_adventureworks.sql
+[SQL-queries]: https://raw.githubusercontent.com/ahmedsalim3/Public-Data/main/AdventureWorks/AdventureWorks-Scripts.sql

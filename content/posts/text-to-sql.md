@@ -19,7 +19,9 @@ includes_math: yes
 ---
 
 {{< notice note "Note" >}}
-The Python source code for the app is available in this [GitHub repository](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/app), and the deployed app can be accessed [here](https://ai-sql.streamlit.app/).
+The Python source code for the app is available in this [GitHub repository](https://github.com/ahmedsalim3/AdventureWorks-Database), and the deployed app can be accessed [here](https://sql-unlocked.streamlit.app/).
+
+You can also read the updated [publication](https://app.readytensor.ai/publications/unlocking_sql_converting_natural_language_into_query_results_with_generative_ai_hrWFsOxy9Yfy).
 {{< /notice >}}
 
 Structured Query Language (SQL) is a complex language that requires an understanding of databases and metadata. While its syntax may not be universally known, mastering database navigation is crucial for businesses and organizations within the tech industry. Fortunately, recent advancements in [Generative AI][generativeai-overview] have significantly simplified this process, making it more accessible to everyone.
@@ -187,7 +189,7 @@ The [Streamlit app][ai-sql] accesses Google’s free LLM model, gemini-1.5-flash
 
 It was designed to bridge the gap for non-technical users who may find SQL daunting. Users can ask analytical questions related to the AdventureWorks database, using table schemas retrieved from the metadata store.
 
-{{< figure src="/posts/text-to-sql/snapshot-1.png" alt="Screenshot from [demo app](https://ai-sql.streamlit.app/)" caption="Screenshot from [demo app](https://ai-sql.streamlit.app/)" width="60%" class="right" >}}
+{{< figure src="/posts/text-to-sql/snapshot-1.png" alt="Screenshot from [demo app](https://sql-unlocked.streamlit.app/)" caption="Screenshot from [demo app](https://sql-unlocked.streamlit.app/)" width="60%" class="right" >}}
 
 ### AI Reponse
 
@@ -231,7 +233,7 @@ The model then provided a response using `sales_2017` instead of `sales_2024`. W
 
 {{< tabgroup align="right" >}}
 {{< tab name="web app" >}}
-{{< figure src="/posts/text-to-sql/snapshot-2.png" alt="Screenshot from [demo app](https://ai-sql.streamlit.app/)" caption="Screenshot from [demo app](https://ai-sql.streamlit.app/)" width="100%" class="right" >}}
+{{< figure src="/posts/text-to-sql/snapshot-2.png" alt="Screenshot from [demo app](https://sql-unlocked.streamlit.app/)" caption="Screenshot from [demo app](https://sql-unlocked.streamlit.app/)" width="100%" class="right" >}}
 
 {{< /tab >}}
 {{< tab name="Shell" >}}
@@ -262,7 +264,9 @@ This application exemplifies how generative AI can simplify data querying by tra
 We encourage you to explore this technology further and consider how it might benefit your own data querying and analysis needs. Happy querying!
 
 {{< notice note "Note" >}}
-The Python source code for the app is available in this [GitHub repository](https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/app), and the deployed app can be accessed [here](https://ai-sql.streamlit.app/).
+The Python source code for the app is available in this [GitHub repository](https://github.com/ahmedsalim3/AdventureWorks-Database), and the deployed app can be accessed [here](https://sql-unlocked.streamlit.app/).
+
+You can also read the updated [publication](https://app.readytensor.ai/publications/unlocking_sql_converting_natural_language_into_query_results_with_generative_ai_hrWFsOxy9Yfy).
 {{< /notice >}}
 
 
@@ -271,7 +275,7 @@ The Python source code for the app is available in this [GitHub repository](http
 [streamlit]: https://streamlit.io/
 [google-api]: https://ai.google.dev/
 [gemini-flash]: https://deepmind.google/technologies/gemini/flash/
-[dump-database]: https://raw.githubusercontent.com/ahmedsalim3/AdventureWorks-Database/refs/heads/main/rdbms/DUMP_adventureworks.sql
+[dump-database]: https://raw.githubusercontent.com/ahmedsalim3/AdventureWorks-Database/refs/heads/main/data/database/dump_adventureworks.sql
 [database-setup-section]: ../adventureworks-database/#database-setup-and-import-with-python
 [sqlalchemy]: https://www.sqlalchemy.org/
 [sqlite]: https://www.sqlite.org/
@@ -283,9 +287,9 @@ The Python source code for the app is available in this [GitHub repository](http
 [media.upload-docs]: https://ai.google.dev/api/rest/v1beta/media/upload
 [media-prompt-docs]: https://ai.google.dev/gemini-api/docs/vision?lang=python#upload-image
 [media-prompt-src]: https://github.com/google-gemini/generative-ai-python/blob/c8eadc4ab76eb6140b2702614bf081fd65804280/samples/files.py#L39-L46
-[random-questions]: https://github.com/ahmedsalim3/AdventureWorks-Database/blob/d309e11e27b052e783d68993c50f3868ed59b980/app/constants.py#L68-L94
+[random-questions]: https://github.com/ahmedsalim3/AdventureWorks-Database/blob/main/src/constants.py#L68-L94
 [google-ai-studio]: https://aistudio.google.com/app/prompts/new_chat?model=gemini-1.5-flash
 [gemini-api]: https://ai.google.dev/gemini-api/docs/models/gemini
 [get-api]: https://aistudio.google.com/app/apikey?_gl=1*1imnon7*_ga*MTU5NjQyOTI4NC4xNzI4Mzk1MTMw*_ga_P1DBVKWT6V*MTcyODY5NDM5OC41LjEuMTcyODY5NTgxOC4yOS4wLjEyMDUwOTg2ODk.
-[ai-sql]: https://ai-sql.streamlit.app/
+[ai-sql]: https://sql-unlocked.streamlit.app/
 [pandas-docs]: https://pandas.pydata.org/docs/
