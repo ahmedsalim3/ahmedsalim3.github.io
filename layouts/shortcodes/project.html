@@ -27,6 +27,11 @@
             <img src="/favicon_io/favicon.ico" alt="Blog" style="width: 20px; height: 20px; margin-right: 10px;">Blog
         </a>
         {{ end }}
+        {{ if .Get "readytensor" }}
+        <a href="{{ .Get "readytensor" }}" class="btn buttons" target="_blank">
+            <img src="https://www.readytensor.ai/favicon-32x32.png?v=1c4332c0917f69d18ff044831fcf6c95" alt="Blog" style="width: 20px; height: 20px; margin-right: 10px;">Publication
+        </a>
+        {{ end }}
         {{ if .Get "customLink" }}
         <a href="{{ .Get "customLink" }}" class="btn buttons" target="_blank">
             <img src="{{ .Get "customImg" }}" alt="{{ .Get "customText" }}" style="width: 20px; height: 20px; margin-right: 10px;">{{ .Get "customText" }}

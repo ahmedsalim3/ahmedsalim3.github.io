@@ -6,6 +6,18 @@ date: 2024-10-12
 {{< projects_list >}}
     <!-- categories = data-science | "machine-learning" | "business-intelligence" | "web-development"-->
 
+    {{< project
+        title="Unlocking SQL: Text-to-SQL App"
+        category="machine-learning data-science web-development"
+        image="https://raw.githubusercontent.com/ahmedsalim3/AdventureWorks-Database/refs/heads/main/app/ui/static/prompt-engineering.gif" 
+        github="https://github.com/ahmedsalim3/AdventureWorks-Database"
+        readytensor="https://app.readytensor.ai/publications/unlocking_sql_converting_natural_language_into_query_results_with_generative_ai_hrWFsOxy9Yfy"
+        customLink="https://sql-unlocked.streamlit.app/" 
+        customImg="/logos/streamlit.svg" 
+        customText="App"
+        stylesLoaded="true" 
+    >}}
+
     {{< project 
         title="Flask Site Tracker" 
         category="web-development data-science" 
@@ -38,18 +50,6 @@ date: 2024-10-12
         github="https://github.com/ahmedsalim3/Pebelonix/tree/dev"
         customLink="https://pebelone.pythonanywhere.com/" 
         customImg="/logos/pythonanywhere.svg" 
-        customText="Web App"
-        stylesLoaded="true" 
-    >}}
-
-    {{< project
-        title="Text-to-SQL App"
-        category="machine-learning data-science web-development"
-        image="/projects/text-to-sql.png" 
-        github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/app"
-        blog="../posts/text-to-sql/"
-        customLink="https://ai-sql.streamlit.app/" 
-        customImg="/logos/streamlit.svg" 
         customText="Web App"
         stylesLoaded="true" 
     >}}
@@ -125,7 +125,7 @@ date: 2024-10-12
         title="Adventure Works Database"
         category="data-science"
         image="/posts/adventureworks-database/AdventureWorks-Schema.png"
-        github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/rdbms"
+        github="https://github.com/ahmedsalim3/AdventureWorks-Database/tree/main/src/rdbms"
         blog="../posts/adventureworks-database"
         stylesLoaded="true" 
     >}}
