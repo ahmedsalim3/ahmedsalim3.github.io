@@ -39,7 +39,7 @@ date: 2024-10-12
         title="Multi-Task Human Action Recognition" 
         category="machine-learning" 
         image="/projects/multi-task-human-action-recognition.png" 
-        github="https://github.com/ahmedsalim3/Multi-Task-Human-Action-Recognition.git" 
+        github="https://github.com/ahmedsalim3/MultiModel-HAR" 
         stylesLoaded="true" 
     >}}
 
