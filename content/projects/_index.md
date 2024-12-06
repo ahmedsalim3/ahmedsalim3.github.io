@@ -27,10 +27,10 @@ date: 2024-10-12
     >}}
 
     {{< project 
-        title="BraTS image segmentation" 
+        title="BraTS UNet Segmentation" 
         category="machine-learning" 
         image="/projects/brats-image-segmentation.png" 
-        github="https://github.com/ahmedsalim3/BRATS-Image-Segmentation.git" 
+        github="https://github.com/ahmedsalim3/BraTS-UNet-Segmentation" 
         dataset="https://www.kaggle.com/datasets/ahvshim/mri-brats2019-training-and-validation-splits/data" 
         stylesLoaded="true" 
     >}}
