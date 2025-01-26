@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10.9pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -14,7 +14,9 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[dvipsnames, hex]{xcolor}
+\definecolor{_blue}{HTML}{0b025c}
+\usepackage[colorlinks=true, linkcolor=_blue, urlcolor=_blue]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -29,7 +31,7 @@
 
 % serif
 % \usepackage{CormorantGaramond}
-% \usepackage{charter}
+\usepackage{charter}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -101,7 +103,7 @@
 
 \begin{center}
     \textbf{\Huge \scshape Ahmed Salim} \\ \vspace{1pt}
-    \href{https://ahmedsalim3.github.io/}{\underline{Website}} $|$ \href{mailto:realahmedsalim@gmail.com}{\underline{realahmedsalim@gmail.com}} $|$ 
+    \href{https://ahmedsalim3.github.io/}{\underline{Portfolio}} $|$ \href{mailto:realahmedsalim@gmail.com}{\underline{realahmedsalim@gmail.com}} $|$ 
     \href{https://linkedin.com/in/ahmedsalim3}{\underline{linkedin.com/in/ahmedsalim3}} $|$
     \href{https://github.com/ahmedsalim3}{\underline{github.com/ahmedsalim3}}
 \end{center}
@@ -110,73 +112,92 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University Technology Malaysia}{Johor Bahru, Malaysia}
+      {Universiti Teknologi Malaysia}{Johor Bahru, Malaysia}
       {Master of Science in Data Science}{Mar. 2022 -- Mar 2024}
     \resumeSubheading
       {Future University}{Khartoum, Sudan}
-      {Bachelor of Engineering in Electrical and Electronics, Minor in communication}{Aug. 2013 -- May 2018}
+      {Bachelor of Engineering in Electrical and Electronics}{Aug. 2013 -- May 2018}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-      \resumeSubheading
-      {Machine Learning Engineer}{July 2024 -- Present}      
-      {STEM-Away}{Remotely, USA}
+    \resumeSubheading
+      {Freelance Data Scientist}{Aug. 2024 -- Present}
+      {Upwork · Remote}{}
       \resumeItemListStart
-        \resumeItem{Led a team of 7 international students to develop GDAP, a Gene-Disease Association Prediction pipeline and a Streamlit app for model training and prediction analysis}
-        \resumeItem{Fetched gene-disease data using EFO from the Open Target Platform and Protein-Protein Interaction data from the STRING database}
-        \resumeItem{Constructed a bigraph with NetworkX to identify positive/negative edges and merged datasets for analysis}
-        \resumeItem{Experimented with multiple algorithms for node embeddings, graph structure capture, and edge feature engineering}
+        \resumeItem{Delivered ML solutions for clients, including NLP pipelines, computer vision models, and data analysis workflows}
+        \resumeItem{Developed a neural network for medical imaging that uses multi-scale feature extraction and global pyramid fusion, achieving 99.5\% accuracy and 96.7\% sensitivity in choroidal layer segmentation of OCT images}
+        \resumeItem{Implemented RAG frameworks using LangChain for enterprise chatbots}
+        \resumeItem{Applied LSTM, entropy-based feature selection, and bootstrap analysis to classify Autism Spectrum Disorder, combining Facial Emotion Feature Extraction and gaze detection models. Integrated AI with Human-in-the-Loop (HITL) methods to refine the model with human annotations}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Machine Learning Engineer (Internship)}{Aug 2024 -- Jan 2025}      
+      {STEM-Away · Remote, USA}{}
+      \resumeItemListStart
+        \resumeItem{Led a team of 7 to develop \href{https://stemaway.com/t/gdap-gene-disease-association-prediction/16546?u=ahmedsalim}{\underline{GDAP}}, a Gene-Disease Association Prediction pipeline using graph-based representations (NetworkX) and node embeddings}
+        \resumeItem{Integrated disease targets from the Open Targets Platform (EFO) and Protein-Protein Interaction (PPI) data from the STRING database}
+        \resumeItem{Engineered a Streamlit app for model training and prediction analysis, reducing manual effort by 40\%}
+        \resumeItem{Experimented with edge feature engineering and link prediction algorithms (e.g., Node2Vec, GCN)}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Graduate Research Assistant}{Mar. 2023 -- Feb 2024}
-      {Universiti Teknologi Malaysia}{Johor Bahru, Malaysia}
+      {Graduate Research Assistant}{Mar. 2023 -- Feb. 2024}
+      {Universiti Teknologi Malaysia · Johor Bahru, Malaysia}{}
       \resumeItemListStart
-        \resumeItem{Developed a deep learning-based solution for automating tomato plant disease detection using advanced image segmentation}
-        \resumeItem{Enhanced the vision transformer, Segment Anything Model (SAM) with HSV color thresholds and OpenCV to improve segmentation accuracy for tomato leaf images}
-        \resumeItem{Fine-tuned VGG16 via transfer learning, achieving classification accuracy of 99.44\%}
-        \resumeItem{Developed a FastAPI web interface for plant disease detection, enabling instant image segmentation and classification}
-        \resumeItem{Published a book chapter in \textit{\href{https://penerbit.utm.my/booksonline/artificial-intelligence-for-segmentationidentification-and-interaction/}{\underline{Artificial Intelligence for Segmentation, Identification, and Interaction}}}, highlighting advanced techniques for plant disease detection using HSV color models and SAM}
+        \resumeItem{Contributed to SAM, a vision transformer with HSV color thresholds for leaf disease detection; improved segmentation accuracy by 18\%, and fine-tuned VGG16 via transfer learning, achieving 99.44\% classification accuracy}
+        \resumeItem{Published a \href{https://penerbit.utm.my/booksonline/artificial-intelligence-for-segmentationidentification-and-interaction/}{\underline{book chapter}} on AI for plant disease detection in a UTM-published academic volume}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Unlocking SQL} $|$ \emph{Python, MySQL, Generativeai, Streamlit}}{Nov. 2024}
-          \resumeItemListStart
-            \resumeItem{\href{https://app.readytensor.ai/publications/unlocking_sql_converting_natural_language_into_query_results_with_generative_ai_hrWFsOxy9Yfy}{\underline{Published}} research on transforming natural language into SQL queries using Generative AI, making database querying more accessible for non-technical users}
-            \resumeItem{Explored two techniques: schema inference with prompt engineering and Retrieval-Augmented Generation (RAG) to reduce hallucinations and enable LLMs to generate accurate SQL queries}
-            \resumeItem{Developed a \href{https://sql-unlocked.streamlit.app/}{\underline{Streamlit app}} for demonstration and provided both code and the research paper for public use}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Multi-Model HAR} $|$ \emph{Python, TensorFlow, Keras}}{Sep. 2024}
-          \resumeItemListStart
-            \resumeItem{\href{https://github.com/ahmedsalim3/MultiModel-HAR/blob/main/notebooks/notebook.ipynb}{\underline{Developed}} a multi-task functional model for two tasks. To classify actions across 40 classes (multi class), and to determine if more than one person is in the image (binary).}
-            \resumeItem{Experimented with various pretrained models, using fine-tuning and transfer learning techniques}
-            \resumeItem{ Implemented different output layer configurations, including simple dense layers, branching layers, shared features, and common branches for multi-task learning}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Multi-Modal Image Captioning} $|$ \emph{Python, PyTorch, COCO/Flickr}}{Dec. 2024}
+        \resumeItemListStart
+          \resumeItem{Trained a transformer-based model to generate captions from multi-modal inputs (image + text)}
+          \resumeItem{Achieved a BLEU-4 score of 0.18 on the COCO dataset, evaluated on a partial subset due to computational constraints}
+        \resumeItemListEnd
 
-%-----------PROGRAMMING SKILLS-----------
+    \resumeProjectHeading
+        {\textbf{Unlocking SQL with Generative AI} $|$ \emph{Python, Streamlit, Gemini Flash}}{Nov. 2024}
+        \resumeItemListStart
+          \resumeItem{Convert natural language to SQL using AI - reduced errors by 30\% with schema checks \& RAG validation}
+          \resumeItem{Deployed a user-friendly app (\href{https://sql-unlocked.streamlit.app/}{\underline{Streamlit}}) showing real database results retrieval}
+          \resumeItem{\href{https://app.readytensor.ai/publications/unlocking_sql_converting_natural_language_into_query_results_with_generative_ai_hrWFsOxy9Yfy}{\underline{Won}} Ready Tensor Expo 2024 competition; shared code publicly on \href{https://github.com/ahmedsalim3/AdventureWorks-Database}{\underline{GitHub}}}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{3D Medical Image Segmentation} $|$ \emph{Python, TensorFlow, MONAI}}{Sep. 2024}
+        \resumeItemListStart
+          \resumeItem{Built a U-Net 3D image segmentation model for MRI, achieving a Dice score of 0.99 and a mean IoU of 0.90 on the BraTS dataset.}
+        \resumeItemListEnd
+      \resumeProjectHeading
+        {\textbf{Multi-Task Human Action Recognition} $|$ \emph{Python, TensorFlow, Keras}}{Sep. 2024}
+        \resumeItemListStart
+          \resumeItem{Implemented a \href{https://github.com/ahmedsalim3/MultiModel-HAR/blob/main/notebooks/notebook.ipynb}{\underline{multi-task model}} for human action recognition (40 classes) and person count (binary) using TensorFlow and Keras, experimenting with pretrained models, fine-tuning, and dual output layer configurations}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres, MySQL), JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, FastAPI, Django, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, WSL, LaTeX} \\
-     \textbf{Libraries}{: scikit-learn, tensorFlow, torch, transformers, pandas, numpy, matplotlib}
+     \textbf{Languages}{: Python, SQL (Postgres, MySQL), R, JavaScript, HTML/CSS} \\
+     \textbf{ML Frameworks}{: PyTorch, TensorFlow, Keras, Hugging Face, LangChain} \\
+     \textbf{Tools}{: Git, Docker, Streamlit, FastAPI, OpenCV, AWS/GCP, LaTeX} \\
+     \textbf{Libraries}{: pandas, scikit-learn, NumPy, Matplotlib, NetworkX, MONAI} \\
+     \textbf{Areas}{: Computer Vision, NLP, Graph ML, Generative AI, MLOps}
     }}
  \end{itemize}
 
 %-----------AWARDS-----------
-\section*{Awards}
+\section{Awards}
   \begin{itemize}
-    \item \textit{\href{https://drive.google.com/file/d/15Zye0DqQrMwGtM-SLBvWo5tUCdOG-SK7/view?usp=sharing}{\underline{Outstanding Solution Implementation Guide}}, in NLP Projects Expo 2024} \hfill {Nov. 2024}
-    \item \textit{\href{https://drive.google.com/file/d/1PQot78NAxoTiHbD7beFBZICgjhwmDwTT/view?usp=sharing}{\underline{Top performer at Level 1}}, of the EY Open Science Data Challenge 2023} \hfill {May 2023}
+    \item \textit{\href{https://drive.google.com/file/d/15Zye0DqQrMwGtM-SLBvWo5tUCdOG-SK7/view?usp=sharing}{\underline{Outstanding Solution Guide}}, in NLP Projects Expo 2024} \hfill {Nov. 2024}
+    \item \textit{\href{https://drive.google.com/file/d/1PQot78NAxoTiHbD7beFBZICgjhwmDwTT/view?usp=sharing}{\underline{Level 1 Top Performer}}, of the EY Open Science Data Challenge 2023} \hfill {May 2023}
   \end{itemize}
 
 %-------------------------------------------
