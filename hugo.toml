@@ -58,19 +58,31 @@ url = "https://github.com/ahmedsalim3"
 [[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
-weight = 4
-url = "https://www.linkedin.com/in/ahmed-salim-b73aa9200"
+weight = 2
+url = "https://www.linkedin.com/in/ahmedsalim3"
 
 [[params.social]]
 name = "Upwork"
 icon = "fa-brands fa-upwork fa-2x"
-weight = 5
+weight = 3
 url = "https://www.upwork.com/freelancers/~01666bb3554c0e8a10?mp_source=share"
+
+[[params.social]]
+name = "Arts"
+icon = "fa-solid fa-palette fa-2x"
+weight = 4
+url = "https://ahmedsalim3.github.io/art/"
+
+[[params.social]]
+name = "Arts"
+icon = "fa-solid fa-tree fa-2x"
+weight = 5
+url = "https://linktr.ee/ahmedsalim3"
 
 [[params.social]]
 name = "RSS"
 icon = "fa fa-rss-square fa-2x"
-weight = 5
+weight = 6
 url = "/posts/index.xml"
 
 [languages.en]
